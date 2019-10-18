@@ -4,7 +4,7 @@ import org.apache.spark.{SparkConf, SparkContext}
 
 object Main {
   def main(args: Array[String]): Unit = {
-    val conf = new SparkConf().setAppName("wc")
+    val conf = new SparkConf().setAppName("wc").setMaster("local[*]")
 
     val sc = new SparkContext(conf)
     sc.textFile(args(0)).flatMap(line => line.split(" "))

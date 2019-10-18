@@ -17,6 +17,15 @@
             <scope>provided</scope>
         </dependency>
 
+        <!-- https://mvnrepository.com/artifact/org.apache.spark/spark-streaming -->
+        <dependency>
+            <groupId>org.apache.spark</groupId>
+            <artifactId>spark-streaming_2.11</artifactId>
+            <version>2.1.1</version>
+            <scope>provided</scope>
+        </dependency>
+
+
         <dependency>
             <groupId>log4j</groupId>
             <artifactId>log4j</artifactId>
@@ -56,7 +65,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>com.skrein.Main</mainClass>
+                            <mainClass>com.skrein.streaming.QuickStartApps</mainClass>
                         </manifest>
                     </archive>
                     <descriptorRefs>

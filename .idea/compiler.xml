@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spark-streaming-inaction" />
+        <module name="spark-streaming-in-action" />
       </profile>
     </annotationProcessing>
   </component>

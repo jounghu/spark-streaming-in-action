@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ScalaCompilerConfiguration">
-    <profile name="Maven 1" modules="spark-streaming-inaction" />
+    <profile name="Maven 1" modules="spark-streaming-in-action,spark-streaming-inaction" />
   </component>
 </project>
