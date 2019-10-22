@@ -1,4 +1,4 @@
-package com.skrein.streaming
+package com.skrein.spark.streaming
 
 import org.apache.spark._
 import org.apache.spark.streaming._

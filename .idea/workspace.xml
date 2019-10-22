@@ -2,20 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e82164c8-934d-48a3-b93b-04129d4e6aaa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/spark-streaming-in-action.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/skrein/streaming/QuickStartApps.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/skrein/Main.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/skrein/Main.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/skrein/Main$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/skrein/Main$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spark-streaming-inaction-1.0-SNAPSHOT-jar-with-dependencies.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/spark-streaming-inaction-1.0-SNAPSHOT-jar-with-dependencies.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spark-streaming-inaction-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/spark-streaming-inaction-1.0-SNAPSHOT.jar" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,11 +19,38 @@
       <executable />
     </execution>
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Scala Object" />
+        <option value="Package Object" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="MIXED" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="dummy://scala-decompiled/SparkSession.decompiled.java" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -57,12 +72,23 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\ad-dev\spark-streaming-in-action\src\main\resources" />
+      <recent name="C:\ad-dev\spark-streaming-in-action\spark-streaming-dir" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\ad-dev\spark-streaming-in-action\src\main" />
+      <recent name="C:\ad-dev\spark-streaming-in-action\src" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -76,13 +102,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.QuickStartApps">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.skrein.Main" />
+  <component name="RunManager" selected="Application.KafkaApps">
+    <configuration name="DSApps" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.skrein.spark.sql.DSApps" />
       <module name="spark-streaming-in-action" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.skrein.*" />
+          <option name="PATTERN" value="com.skrein.spark.sql.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,12 +116,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuickStartApps" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.skrein.streaming.QuickStartApps" />
+    <configuration name="KafkaApps" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.skrein.spark.streaming.kafka.KafkaApps" />
       <module name="spark-streaming-in-action" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.skrein.streaming.*" />
+          <option name="PATTERN" value="com.skrein.spark.streaming.kafka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LogApps" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.skrein.spark.streaming.mysql.LogApps" />
+      <module name="spark-streaming-in-action" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.skrein.spark.streaming.mysql.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuickStartApp" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.skrein.spark.sql.QuickStartApp" />
+      <module name="spark-streaming-in-action" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.skrein.spark.sql.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReadLogFileToDir" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.skrein.spark.streaming.mysql.ReadLogFileToDir" />
+      <module name="spark-streaming-in-action" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.skrein.spark.streaming.mysql.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,8 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.QuickStartApps" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.KafkaApps" />
+        <item itemvalue="Application.ReadLogFileToDir" />
+        <item itemvalue="Application.LogApps" />
+        <item itemvalue="Application.DSApps" />
+        <item itemvalue="Application.QuickStartApp" />
       </list>
     </recent_temporary>
   </component>
@@ -123,7 +191,30 @@
       <workItem from="1570798187655" duration="235000" />
       <workItem from="1570798471826" duration="1610000" />
       <workItem from="1571384507657" duration="4566000" />
+      <workItem from="1571401199585" duration="27787000" />
     </task>
+    <task id="LOCAL-00001" summary="add Simple WordCount app">
+      <created>1571401254189</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1571401254189</updated>
+    </task>
+    <task id="LOCAL-00002" summary="[Add] spark streaming code">
+      <created>1571741812360</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1571741812360</updated>
+    </task>
+    <task id="LOCAL-00003" summary="[Add] zkOffsetManager">
+      <created>1571742659212</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1571742659212</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,83 +225,18 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
   </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>spark-streaming-inaction</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add Simple WordCount app" />
+    <MESSAGE value="[Add] spark streaming code" />
+    <MESSAGE value="[Add] zkOffsetManager" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Add] zkOffsetManager" />
   </component>
 </project>
